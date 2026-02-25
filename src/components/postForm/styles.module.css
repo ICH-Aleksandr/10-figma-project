@@ -1,0 +1,44 @@
+.section {
+  height: 890px;
+  background: rgba(94, 207, 255, 1);
+  border: 2px solid black;
+  margin: 64px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin: 60px 0px 120px 0px;
+}
+.form {
+  width: 80%;
+}
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+
+  box-sizing: border-box;
+}
+
+.input {
+  padding: 3px;
+  background: rgb(169, 229, 255);
+}
+
+.textarea {
+  padding: 3px;
+  min-height: 150px;
+  width: 100%;
+  background: rgb(169, 229, 255);
+}
+.button {
+  padding: 4px;
+  display: block;
+  margin-left: auto;
+  background: rgb(94, 158, 185);
+}
